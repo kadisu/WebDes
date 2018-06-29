@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>U-RPG Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:10px}
+.center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:300px" id="mySidebar">
+<a href="javascript:void(0)" onclick="w3_close()"
+class="w3-bar-item w3-button">Close Menu</a>
+<a href="Home.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+<a href="GW2.html" onclick="w3_close()" class="w3-bar-item w3-button">Guild Wars 2</a>
+<a href="WF.html" onclick="w3_close()" class="w3-bar-item w3-button">Warframe</a>
+<a href="Daunt.html" onclick="w3_close()" class="w3-bar-item w3-button">Dauntless</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+<div class="w3-white w3-xlarge" style="max-width:1800px;margin:auto">
+<div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">Menu</div>
+</div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:90%;margin-top:100px">
+<center><h1><b>Guild Wars 2</b></h1></center>
+<hr>
+<br>
+<img src="Assets/GW2/GW2Head2.jpg" style="width:50%" class="center">
+<p>Guild Wars 2 is a story-driven MMORPG developed by AraNet and published by NCSOFT.
+In the fantasy world of Tyria, players take the role of heroes dedicated to fight the Elder Dragons in order to maintain balance and peace. 
+The game's world is persistent, there is always an event going on where a player can jump in the frail at any time. The game is grindy, but 
+don't make it throw you off, with the game's "Living Story" which starts your character's journey to become someone big then on to the main 
+stories that explains the problems of Tyria and how near it was to experience falling into chaos, the story itself is sufficient to take your mind off of the grind.</p>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWMap.png" style="width:97.5%">
+      <h3>The World Map</h3>
+      <p>Tyria is LARGE, in fact too large to explore in a single week.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWLargeMap1.jpg" style="width:100%">
+      <h3>Lornar's Pass, Shiverpeak Mountains</h3>
+      <p>Variation is a must on games, with many maps included on the game, AraNet has splendidly made the maps as unique as it can be to distinguish which map is which.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWLargeMap2.jpg" style="width:100%">
+      <h3>Again, amazing work!</h3>
+      <p>Verdant Brink in the Heart of Maguuma Jungle included in the Heart of Thorns DLC.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWFlight.jpg" style="width:94%">
+      <h3>Heroes take flight!</h3>
+      <p>With such large maps, things changed when mounts were introduced with Path of Fire DLC.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWWorldBossPre.jpg" style="width:97.5%">
+      <h3>Events!</h3>
+      <p>With this much people in an event, expect it to become a big event.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWWorldBoss.jpg"  style="width:100%">
+      <h3>Surprise!</h3>
+      <p>It's a world boss event!, no wonder it's so populated.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWFashion.jpg" style="width:100%">
+      <h3>#GW2 Fashion.</h3>
+      <p>It's not only about the combat that people enjoy, Fashion too is a game itself!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWReference.jpg" style="width:100%">
+      <h3>Lion king reference!</h3>
+      <p>With maps so wide, there's bound to be references or easter eggs present on few maps.</p>
+    </div>
+  </div>
+
+    <!-- Third Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWSkillTree.jpg" style="width:97.5%">
+      <h3>Flexible skill tree</h3>
+      <p>The ranger's skill tree, so many combinations to choose and build. one out of nine classes in the game.</p>
+	  <p>You could switch skills / traits as you please, no more re-specs!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Assets/GW2/GWWvw.jpg" style="width:100%">
+      <h3>World vs World Mode</h3>
+      <p>Here 300+ players split in 3 teams with the goal to get the highest points by claiming castles, keeps, camps, killing other players. </p>
+	  <p>Though of course, there's always a classical 5v5 pvp mode</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
+

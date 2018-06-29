@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<title>U-RPG Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:10px}
+.center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:300px" id="mySidebar">
+<a href="javascript:void(0)" onclick="w3_close()"
+class="w3-bar-item w3-button">Close Menu</a>
+<a href="Home.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+<a href="GW2.html" onclick="w3_close()" class="w3-bar-item w3-button">Guild Wars 2</a>
+<a href="WF.html" onclick="w3_close()" class="w3-bar-item w3-button">Warframe</a>
+<a href="Daunt.html" onclick="w3_close()" class="w3-bar-item w3-button">Dauntless</a>
+<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+<div class="w3-white w3-xlarge" style="max-width:1800px;margin:auto">
+<div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">Menu</div>
+</div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<center><h1>Welcome to U-RPG Blog!</h1></center>
+<hr>
+<br>
+<h2><b> These are the games that I feature:</b></h2>
+
+<h3 class="w3-center">Guild Wars 2</h3>
+<img src="Assets/GW2/GW2Head1.jpg" style="width:70%" class="center">
+<br>
+<hr>
+<br>
+<h3 class="w3-center">Warframe</h3>
+<img src="Assets/Warframe/WFHead.jpg" style="width:70%" class="center">
+<br>
+<hr>
+<br>
+<h3 class="w3-center">Dauntless</h3>
+<img src="Assets/Dauntless/DaunHead.jpg" style="width:70%" class="center">
+<br>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me:</h3><br>
+    <div class="w3-padding-8">
+      <h4><b>I am a guy who plays games in his free time, lots of free time.</b></h4>
+      <h6><i>I play mostly RPGs with reasonable grinds, oh, and also when the game is fun!</i></h6>
+      <p>Dive into these games with me and jump into the frail, where the smell of blood and steel fuses with the air
+	  clouded with the screams of pain!, Too dark? Oh right!, Come with me and experience the world that you cannot experience 
+	  in reality, feel the glory with your own hands (specially the fingers) as you graciously smash the buttons!</p>
+    </div>
+  </div>
+  <hr>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
+
